@@ -11,13 +11,13 @@ class TeamsController < ApplicationController
   # GET /teams.json
   def index
     @teams = Team.all
-    render json: @teams
+    render_with_protection json: @teams
   end
 
   # GET /teams/1
   # GET /teams/1.json
   def show
-    render json: @team
+    render_with_protection json: @team
   end
 
   # POST /teams
@@ -26,9 +26,9 @@ class TeamsController < ApplicationController
     @team = Team.new(team_params)
 
     if @team.save
-      render json: @team, status: :created, location: @team
+      render_with_protection json: @team, status: :created, location: @team
     else
-      render json: @team.errors, status: :unprocessable_entity
+      render_with_protection json: @team.errors, status: :unprocessable_entity
     end
   end
 
@@ -38,7 +38,7 @@ class TeamsController < ApplicationController
     if @team.update_attributes(params[:team])
       head :no_content
     else
-      render json: @team.errors, status: :unprocessable_entity
+      render_with_protection json: @team.errors, status: :unprocessable_entity
     end
   end
 
