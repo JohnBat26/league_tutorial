@@ -34,8 +34,8 @@ angular.module('league.club', [
  * Add a resource to allow us to get at the server
  */
     .factory('ClubRes', function ($resource) {
-        return $resource('../clubs.json',
-            {'query': {method: 'GET', isArray: false }});
+        return $resource('../clubs.json'
+        );
     })
 
 ;
