@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf7b8c90-a903-4929-acfa-cf9fef72e57c" name="Default" comment="" />
+    <list default="true" id="bf7b8c90-a903-4929-acfa-cf9fef72e57c" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/club/club.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/club/club.spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/club/clubs.tpl.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/runConfigurations/Development__league_tutorial.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Development__league_tutorial.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/about/about.js" afterPath="$PROJECT_DIR$/src/app/about/about.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/app.js" afterPath="$PROJECT_DIR$/src/app/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/app.spec.js" afterPath="$PROJECT_DIR$/src/app/app.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower.json" afterPath="$PROJECT_DIR$/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.config.js" afterPath="$PROJECT_DIR$/build.config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/clubs_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/clubs_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/home/home.js" afterPath="$PROJECT_DIR$/src/app/home/home.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/home/home.spec.js" afterPath="$PROJECT_DIR$/src/app/home/home.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.html" afterPath="$PROJECT_DIR$/src/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/karma/karma-unit.tpl.js" afterPath="$PROJECT_DIR$/karma/karma-unit.tpl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/league_tutorial.iml" afterPath="$PROJECT_DIR$/.idea/league_tutorial.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/less/main.less" afterPath="$PROJECT_DIR$/src/less/main.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/teams_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/teams_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="league_tutorial.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,7 +33,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/league_tutorial@Development__league_tutorial.coverage" NAME="Development: league_tutorial Coverage Results" MODIFIED="1391546741526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="league_tutorial" />
+    <SUITE FILE_PATH="coverage/league_tutorial@Development__league_tutorial.coverage" NAME="Development: league_tutorial Coverage Results" MODIFIED="1391694975643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="league_tutorial" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -26,94 +47,91 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="clubs_controller.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="clubs_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/clubs_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="28" selection-start="933" selection-end="933" vertical-scroll-proportion="0.0" vertical-offset="399" max-vertical-offset="1368">
+            <state line="40" column="30" selection-start="808" selection-end="808" vertical-scroll-proportion="0.46153846" vertical-offset="418" max-vertical-offset="1235">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="44" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="1254">
-              <folding>
-                <marker date="1391545615361" expanded="true" signature="40:1702" placeholder="do ... end" />
-                <marker date="1391545615361" expanded="true" signature="137:1698" placeholder="#..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SQLite - development.sqlite3" pinned="false" current="false" current-in-tab="false">
-        <entry file="dbDummy://db-console:/b5888b71/0186945a-6c54-4d65-b106-d7f7bac81c68/">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="20" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="114">
+            <state line="60" column="55" selection-start="2482" selection-end="2482" vertical-scroll-proportion="-9.964286" vertical-offset="861" max-vertical-offset="1843">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="teams_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/teams_controller.rb">
+      <file leaf-file-name="clubs.tpl.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/club/clubs.tpl.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="28" selection-start="849" selection-end="849" vertical-scroll-proportion="0.0" vertical-offset="760" max-vertical-offset="1387">
+            <state line="15" column="13" selection-start="375" selection-end="375" vertical-scroll-proportion="-10.178572" vertical-offset="0" max-vertical-offset="437">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application_controller.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+      <file leaf-file-name="club.spec.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/club/club.spec.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="13" selection-start="662" selection-end="662" vertical-scroll-proportion="0.49061033" vertical-offset="0" max-vertical-offset="852">
+            <state line="18" column="44" selection-start="667" selection-end="667" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="494">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="request_forgery_protection.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.1.0@learn/gems/actionpack-4.0.2/lib/action_controller/metal/request_forgery_protection.rb">
+      <file leaf-file-name="karma-unit.tpl.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/karma/karma-unit.tpl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="35" selection-start="2624" selection-end="2648" vertical-scroll-proportion="0.0" vertical-offset="670" max-vertical-offset="4028">
+            <state line="57" column="16" selection-start="1814" selection-end="1814" vertical-scroll-proportion="0.0" vertical-offset="483" max-vertical-offset="1224">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/application.rb">
+      <file leaf-file-name="build.config.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="11" selection-start="992" selection-end="992" vertical-scroll-proportion="0.0" vertical-offset="399" max-vertical-offset="570">
+            <state line="69" column="58" selection-start="2739" selection-end="2739" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="1577">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="environment.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/environment.rb">
+      <file leaf-file-name="bower.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bower.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="209">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="380">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="development.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
+      <file leaf-file-name="Gruntfile.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gruntfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="665">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="5073" max-vertical-offset="12312">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rescue.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.1.0@learn/gems/actionpack-4.0.2/lib/action_controller/metal/rescue.rb">
+      <file leaf-file-name="club.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/club/club.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="0" selection-start="1023" selection-end="1023" vertical-scroll-proportion="0.0" vertical-offset="570" max-vertical-offset="779">
+            <state line="37" column="12" selection-start="924" selection-end="924" vertical-scroll-proportion="0.0" vertical-offset="47" max-vertical-offset="893">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.spec.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/home/home.spec.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="29" selection-start="320" selection-end="320" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="380">
               <folding />
             </state>
           </provider>
@@ -133,14 +151,31 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/clubs_controller.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/teams_controller.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/application.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="db-console:/b5888b71/0186945a-6c54-4d65-b106-d7f7bac81c68/" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/app/home/home.js" />
+        <option value="$PROJECT_DIR$/src/app/about/about.js" />
+        <option value="$PROJECT_DIR$/src/app/app.spec.js" />
+        <option value="$PROJECT_DIR$/src/app/home/home.spec.js" />
+        <option value="$PROJECT_DIR$/src/app/app.js" />
+        <option value="$PROJECT_DIR$/src/less/main.less" />
+        <option value="$PROJECT_DIR$/src/app/club/clubs.tpl.html" />
+        <option value="$PROJECT_DIR$/build.config.js" />
+        <option value="$PROJECT_DIR$/karma/karma-unit.tpl.js" />
+        <option value="$PROJECT_DIR$/src/index.html" />
+        <option value="$PROJECT_DIR$/src/app/club/club.spec.js" />
+        <option value="$PROJECT_DIR$/bower.json" />
+        <option value="$PROJECT_DIR$/src/app/club/club.js" />
+        <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/clubs_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/teams_controller.rb" />
       </list>
     </option>
+  </component>
+  <component name="JsKarmaPackageDirSetting">
+    <data>$PROJECT_DIR$/node_modules/karma</data>
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -180,6 +215,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -198,25 +234,62 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="league_tutorial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="league_tutorial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="league_tutorial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="league_tutorial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="RailsProjectView" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.lastSelected" value="org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable" />
+    <property name="options.lastSelected" value="preferences.pluginManager" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../web-collaboration" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/node_modules/karma/config.tpl.js" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="recentsLimit" value="5" />
     <property name="SearchEverywhereHistory" value="" />
     <property name="dynamic.classpath" value="false" />
     <property name="FullScreen" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
   </component>
-  <component name="RunManager" selected="Rails.Development: league_tutorial">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true" temporary="true" uri="http://localhost:63342/league_tutorial/src/index.html">
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+      <method />
+    </configuration>
     <configuration default="true" type="RakeRunConfigurationType" factoryName="Rake">
       <module name="" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -239,6 +312,18 @@
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="nginx.configuration.type" factoryName="nginx server">
+      <option name="serverDescriptorId" />
+      <option name="showHttpLog" value="false" />
+      <option name="showErrorLog" value="false" />
+      <option name="httpLogPath" />
+      <option name="errorLogPath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="RailsRunConfigurationType" factoryName="Rails">
@@ -267,8 +352,39 @@
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
       <method />
     </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
+    <configuration default="true" type="NodeJSRemoteDebug" factoryName="Node.js Remote Debug">
+      <node-js-remote-debug />
+      <method />
+    </configuration>
+    <configuration default="true" type="RSpecRunConfigurationType" factoryName="RSpec">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
       <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
       <method />
     </configuration>
     <configuration default="true" type="RubyRunConfigurationType" factoryName="Ruby">
@@ -294,6 +410,43 @@
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
       <method />
     </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <test-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>BDD</ui>
+      <require />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <configuration default="true" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest">
+      <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
+      <module name="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+      <method />
+    </configuration>
     <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
       <browser start="false" url="" with-js-debugger="false" />
       <method />
@@ -304,12 +457,37 @@
       <option name="CONTEXT_PROVIDER" />
       <method />
     </configuration>
-    <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="Rake.test: league_tutorial" />
-      <item index="1" class="java.lang.String" itemvalue="Rake.spec: league_tutorial" />
-      <item index="2" class="java.lang.String" itemvalue="Rails.Production: league_tutorial" />
-      <item index="3" class="java.lang.String" itemvalue="Rails.Development: league_tutorial" />
+    <configuration default="false" name="league tests" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="$PROJECT_DIR$/node_modules/karma/config.tpl.js">
+      <envs />
+      <RunnerSettings RunnerId="KarmaJavaScriptTestRunnerRun" />
+      <ConfigurationWrapper RunnerId="KarmaJavaScriptTestRunnerRun" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Karma Run" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="/usr/bin/node" path-to-js-file="node_modules/karma/bin/karma" application-parameters="start karma/karma-unit.tpl.js --single-run --no-auto-watch --reporters dots" working-dir="$PROJECT_DIR$">
+      <browser start="false" name="Chrome" url="" with-js-debugger="false" />
+      <RunnerSettings RunnerId="NodeJS.run" />
+      <ConfigurationWrapper RunnerId="NodeJS.run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Karma Server" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="/usr/bin/node" path-to-js-file="node_modules/karma/bin/karma" application-parameters="start &lt;karma-config-file&gt; --no-single-run --auto-watch --reporters dots" working-dir="$PROJECT_DIR$">
+      <browser start="false" url="" with-js-debugger="false" />
+      <method />
+    </configuration>
+    <list size="8">
+      <item index="0" class="java.lang.String" itemvalue="Karma.league tests" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.Karma Run" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.Karma Server" />
+      <item index="3" class="java.lang.String" itemvalue="Rails.Production: league_tutorial" />
+      <item index="4" class="java.lang.String" itemvalue="Rails.Development: league_tutorial" />
+      <item index="5" class="java.lang.String" itemvalue="Rake.test: league_tutorial" />
+      <item index="6" class="java.lang.String" itemvalue="Rake.spec: league_tutorial" />
+      <item index="7" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
     </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
@@ -347,44 +525,44 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1130064" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1401919" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14179105" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26519337" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928178" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928178" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14917128" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40552485" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928178" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.11712707" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40552485" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928178" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1130064" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1130064" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26519337" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928178" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928178" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13859275" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928178" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14179105" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3289183" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -402,7 +580,14 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/app/club/club.js</url>
+          <line>29</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="5" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -417,8 +602,81 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="44" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="1254">
           <folding>
-            <marker date="1391545615361" expanded="true" signature="40:1702" placeholder="do ... end" />
-            <marker date="1391545615361" expanded="true" signature="137:1698" placeholder="#..." />
+            <marker date="1391545615000" expanded="true" signature="-1:-1" placeholder="do ... end" />
+            <marker date="1391545615000" expanded="true" signature="-1:-1" placeholder="#..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://db-console:/b5888b71/0186945a-6c54-4d65-b106-d7f7bac81c68/">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="20" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="114">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/teams_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="28" selection-start="849" selection-end="849" vertical-scroll-proportion="0.0" vertical-offset="760" max-vertical-offset="1387">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="13" selection-start="662" selection-end="662" vertical-scroll-proportion="0.0" vertical-offset="418" max-vertical-offset="532">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.1.0@learn/gems/actionpack-4.0.2/lib/action_controller/metal/request_forgery_protection.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="35" selection-start="2624" selection-end="2648" vertical-scroll-proportion="0.0" vertical-offset="670" max-vertical-offset="4028">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/application.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="11" selection-start="992" selection-end="992" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environment.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="209">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="665">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.1.0@learn/gems/actionpack-4.0.2/lib/action_controller/metal/rescue.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="0" selection-start="1023" selection-end="1023" vertical-scroll-proportion="0.0" vertical-offset="570" max-vertical-offset="779">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/clubs_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="28" selection-start="933" selection-end="933" vertical-scroll-proportion="0.0" vertical-offset="399" max-vertical-offset="1368">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="44" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="1254">
+          <folding>
+            <marker date="1391545615000" expanded="true" signature="-1:-1" placeholder="do ... end" />
+            <marker date="1391545615000" expanded="true" signature="-1:-1" placeholder="#..." />
           </folding>
         </state>
       </provider>
@@ -492,11 +750,11 @@
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/b5888b71/0186945a-6c54-4d65-b106-d7f7bac81c68/..clubs">
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100" />
-      </provider>
       <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
         <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/development.sqlite3">
@@ -515,16 +773,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="44" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1254">
           <folding>
-            <marker date="1391545615361" expanded="true" signature="40:1702" placeholder="do ... end" />
-            <marker date="1391545615361" expanded="true" signature="137:1698" placeholder="#..." />
+            <marker date="1391545615000" expanded="true" signature="-1:-1" placeholder="do ... end" />
+            <marker date="1391545615000" expanded="true" signature="-1:-1" placeholder="#..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/teams_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="28" selection-start="849" selection-end="849" vertical-scroll-proportion="0.0" vertical-offset="226" max-vertical-offset="1387">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -538,13 +789,6 @@
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="0" selection-start="897" selection-end="897" vertical-scroll-proportion="0.0" vertical-offset="295" max-vertical-offset="1026">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/clubs_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="28" selection-start="933" selection-end="933" vertical-scroll-proportion="0.0" vertical-offset="399" max-vertical-offset="1368">
           <folding />
         </state>
       </provider>
@@ -563,13 +807,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="665">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/application.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="11" selection-start="992" selection-end="992" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
@@ -577,9 +814,135 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="50" selection-start="602" selection-end="607" vertical-scroll-proportion="0.0" vertical-offset="62" max-vertical-offset="665">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="27" selection-start="29" selection-end="29" vertical-scroll-proportion="-0.6785714" vertical-offset="0" max-vertical-offset="741">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/home/home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="28" selection-start="690" selection-end="690" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="969">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/about/about.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="23" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="877">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/app.spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="31" selection-start="143" selection-end="143" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="437">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="22" selection-start="149" selection-end="149" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="551">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/less/main.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="145" column="1" selection-start="2677" selection-end="2677" vertical-scroll-proportion="-26.25" vertical-offset="2020" max-vertical-offset="3097">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="5073" max-vertical-offset="12312">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/karma/karma-unit.tpl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="16" selection-start="1814" selection-end="1814" vertical-scroll-proportion="0.0" vertical-offset="645" max-vertical-offset="1224">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/home/home.spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="29" selection-start="320" selection-end="320" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="380">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/club/club.spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="44" selection-start="667" selection-end="667" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="494">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/club/clubs.tpl.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="13" selection-start="375" selection-end="375" vertical-scroll-proportion="-10.178572" vertical-offset="0" max-vertical-offset="437">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="55" selection-start="2482" selection-end="2482" vertical-scroll-proportion="-9.964286" vertical-offset="861" max-vertical-offset="1843">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="380">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="58" selection-start="2739" selection-end="2739" vertical-scroll-proportion="0.0" vertical-offset="922" max-vertical-offset="1577">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/club/club.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="12" selection-start="924" selection-end="924" vertical-scroll-proportion="0.0" vertical-offset="47" max-vertical-offset="893">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="13" selection-start="662" selection-end="662" vertical-scroll-proportion="0.49061033" vertical-offset="0" max-vertical-offset="852">
+        <state line="4" column="0" selection-start="200" selection-end="200" vertical-scroll-proportion="0.102564104" vertical-offset="0" max-vertical-offset="741">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/teams_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="3" selection-start="1244" selection-end="1244" vertical-scroll-proportion="1.4102564" vertical-offset="76" max-vertical-offset="1235">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/clubs_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="30" selection-start="808" selection-end="808" vertical-scroll-proportion="0.46153846" vertical-offset="418" max-vertical-offset="1235">
           <folding />
         </state>
       </provider>

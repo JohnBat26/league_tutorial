@@ -1,43 +1,41 @@
 class ClubsController < ApplicationController
-  before_action :set_club, only: [:show, :update, :destroy]
-
   before_filter :intercept_html_requests
-
   layout false
-
   respond_to :json
+  before_action :set_club, only: [:show, :edit, :update, :destroy]
 
   # GET /clubs
   # GET /clubs.json
   def index
     @clubs = Club.all
-    render_with_protection json: @clubs
+    render json: @clubs
   end
 
   # GET /clubs/1
   # GET /clubs/1.json
   def show
-    render_with_protection json: @club
+    render json: @club
   end
 
   # POST /clubs
   # POST /clubs.json
   def create
     @club = Club.new(club_params)
+
     if @club.save
-      render_with_protection json: @club, status: :created, location: @club
+      render json: @club, status: :created
     else
-      render_with_protection json: @club.errors, status: :unprocessable_entity
+      render json: @club.errors, status: :unprocessable_entity
     end
   end
 
   # PATCH/PUT /clubs/1
   # PATCH/PUT /clubs/1.json
   def update
-    if @club.update_attributes(params[:club])
+    if @club.update(club_params)
       head :no_content
     else
-      render_with_protection json: @club.errors, status: :unprocessable_entity
+      render json: @club.errors, status: :unprocessable_entity
     end
   end
 
@@ -45,6 +43,7 @@ class ClubsController < ApplicationController
   # DELETE /clubs/1.json
   def destroy
     @club.destroy
+
     head :no_content
   end
 
@@ -58,9 +57,4 @@ class ClubsController < ApplicationController
   def club_params
     params.require(:club).permit(:name, :contact_officer, :date_created)
   end
-
-  def intercept_html_requests
-    redirect_to('/') if request.format == Mime::HTML
-  end
-
 end
