@@ -273,9 +273,10 @@ angular.module("about/about.tpl.html", []).run(["$templateCache", function($temp
 angular.module("club/clubs.tpl.html", []).run(["$templateCache", function($templateCache) {
   $templateCache.put("club/clubs.tpl.html",
     "<div>\n" +
-    "    <h1>Club functions</h1>\n" +
+    "    <h1 id=\"title\">Club functions</h1>\n" +
     "\n" +
-    "    <p>Soon this will show a list of all the clubs, based on information from the server</p>\n" +
+    "    <p id=\"description\">Soon this will show a list of all the clubs, based on information from the server</p>\n" +
+    "\n" +
     "</div>\n" +
     "\n" +
     "<div>\n" +
