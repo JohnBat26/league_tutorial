@@ -13,3 +13,4 @@ dump.rdb
 config/errbit.yml
 *.swp
 .bundle
+node_modules/*
